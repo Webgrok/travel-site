@@ -14,6 +14,29 @@
   </head>
   <body>
     <div class="container">
+      <!-- Navbar -->
+      <div class="open-navbar-icon navbar-icon center">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="navbar-wrapper">
+        <nav class="navbar">
+          <div class="close-navbar-icon navbar-icon center">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+          </div>
+          <div class="nav-list">
+            <a href="#" class="nav-link center">Home</a>
+            <a href="#" class="nav-link center">Tours</a>
+            <a href="#" class="nav-link center">About Us</a>
+            <a href="#" class="nav-link center">Offers</a>
+            <a href="#" class="nav-link center">Contact Us</a>
+          </div>
+        </nav>
+      </div>
+      <!-- End of Navbar -->
+      <!-- header -->
       <header class="header center">
         <div class="header-text">
           <h1 class="heading">Around the world</h1>
@@ -22,11 +45,12 @@
             teller
           </p>
         </div>
-        <img src="images/air-balloon.png" class="header-image" />
+        <img src="images/air-balloon.png" class="head-image" />
         <div class="logo">
           <h1>
             <span class="center">t</span>
             <span class="center">h</span>
+            <span class="center">e</span>
             <span class="center">r</span>
             <span class="center">o</span>
             <span class="center">a</span>
@@ -34,7 +58,176 @@
           </h1>
         </div>
       </header>
+
+      <!-- end of header -->
+
+      <!-- popular tours -->
+      <section class="popular-tours">
+        <h1 class="popular-tours-heading">The Most Popular Tours</h1>
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="front-side">
+              <img src="images/forest.jpg" class="card-image" />
+              <h1 class="tour-name">The wild forests</h1>
+              <ul class="card-list">
+                <li class="card-list-item">7 days tour</li>
+                <li class="card-list-item">Up to 20 people</li>
+                <li class="card-list-item">4 tour guides</li>
+                <li class="card-list-item">sleep in private tent</li>
+                <li class="card-list-item">Difficulty medium</li>
+              </ul>
+              <button class="navigation-button">price &gt;&gt;</button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button">&lt;&lt; back</button>
+              <h3 class="tour-price">$300</h3>
+              <div class="card-button">booking</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front-side">
+              <img src="images/river.jpg" class="card-image" />
+              <h1 class="tour-name">Along the River</h1>
+              <ul class="card-list">
+                <li class="card-list-item">7 days tour</li>
+                <li class="card-list-item">Up to 20 people</li>
+                <li class="card-list-item">4 tour guides</li>
+                <li class="card-list-item">sleep in private tent</li>
+                <li class="card-list-item">Difficulty hard</li>
+              </ul>
+              <button class="navigation-button">price &gt;&gt;</button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button">&lt;&lt; back</button>
+              <h3 class="tour-price">$499</h3>
+              <div class="card-button">booking</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front-side">
+              <img src="images/sea.jpg" class="card-image" />
+              <h1 class="tour-name">The Island beach</h1>
+              <ul class="card-list">
+                <li class="card-list-item">7 days tour</li>
+                <li class="card-list-item">Up to 20 people</li>
+                <li class="card-list-item">4 tour guides</li>
+                <li class="card-list-item">sleep in private tent</li>
+                <li class="card-list-item">Difficulty medium</li>
+              </ul>
+              <button class="navigation-button">price &gt;&gt;</button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button">&lt;&lt; back</button>
+              <h3 class="tour-price">$599</h3>
+              <div class="card-button">booking</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of popular tours -->
+
+      <!-- stories -->
+      <section class="stories">
+        <div class="video-container">
+          <div class="overlay"></div>
+          <video class="bg-video" autoplay mute loop="true">
+            <source src="images/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="stories-wrapper">
+          <div class="story-bg">
+            <div class="story">
+              <img src="images/story-img-1.jpg" class="story-image" />
+              <div class="story-text">
+                <h1 class="story-heading">
+                  These were the best days of this year
+                </h1>
+                <p class="story-paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  officia amet non deleniti veniam magni itaque numquam cumque
+                  exercitationem architecto accusamus iure corporis perferendis,
+                  assumenda, iste sequi fugit velit ex reprehenderit sapiente,
+                  aspernatur commodi animi. Consectetur enim blanditiis omnis
+                  consequuntur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="story-bg">
+            <div class="story">
+              <img src="images/story-img-2.jpg" class="story-image" />
+              <div class="story-text">
+                <h1 class="story-heading">I enjoy this great tour</h1>
+                <p class="story-paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  officia amet non deleniti veniam magni itaque numquam cumque
+                  exercitationem architecto accusamus iure corporis perferendis,
+                  assumenda, iste sequi fugit velit ex reprehenderit sapiente,
+                  aspernatur commodi animi. Consectetur enim blanditiis omnis
+                  consequuntur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section class="contact">
+        <h1 class="contact-heading">Contact Us</h1>
+        <form action="" class="contact-form center">
+          <div class="input-group">
+            <label for="">Full Name</label>
+            <input
+              type="text"
+              class="contact-input"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="input-groups">
+            <div class="input-group">
+              <label for="">Email</label>
+              <input
+                type="email"
+                class="contact-input"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div class="input-group">
+              <label for="">Phone</label>
+              <input
+                type="tel"
+                class="contact-input"
+                placeholder="Your Phone number"
+              />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="">Massage</label>
+            <textarea
+              class="form-textarea"
+              placeholder="Your Massage here"
+            ></textarea>
+          </div>
+          <input type="submit" value="submit" class="form-btn" />
+        </form>
+      </section>
+      <!-- end of contact -->
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer-list">
+          <a href="#" class="footer-link">Home </a>
+          <a href="#" class="footer-link">Tours </a>
+          <a href="#" class="footer-link">About Us </a>
+          <a href="#" class="footer-link">Offers</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <p class="footer-paragraph">
+          Copyright &copy; CodeAndCreate All Right Reserved
+        </p>
+      </footer>
+      <!-- end of footer -->
     </div>
+    <!-- end of stories -->
     <script src="script.js"></script>
   </body>
 </html>
